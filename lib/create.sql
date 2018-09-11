@@ -3,13 +3,13 @@ CREATE TABLE projects (
                 title TEXT,
                 funding_goal INTEGER,
                 start_date REAL,
-                end_date REAL,
+                end_date REAL
             );
 
 CREATE TABLE user (
         id INTEGER PRIMARY KEY,
                 name TEXT,
-                age INTEGER,
+                age INTEGER
               );
 
 CREATE TABLE pledge (
